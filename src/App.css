@@ -16,23 +16,24 @@
   justify-content: center;
 }
 
-.App-form form{
+.App-form .form{
   margin-top: 3rem ;
   max-width: 500px;
   width: 100%;
   padding: 0 2rem;
 }
 
-.App-form form input[type="text"]{
+.App-form .form input[type="text"]{
   width: 96%;
   padding: .5rem;
 }
-.App-form form input[type="submit"]{
+.App-form .btn-search{
   padding: .5rem 1rem;
   background-color: #282c34;
   color: white;
   margin: 1rem 0;
   margin-left: auto;
   display: flex;
+  border: none;
 }
 

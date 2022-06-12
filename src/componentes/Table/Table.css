@@ -1,0 +1,31 @@
+.table{
+    max-width: 1020px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.table__grid--head, .table__grid--body{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 150px;
+    border: 1px solid #282c34;
+    background-color: #282c34;
+    color: white;
+}
+
+.table__grid--head-item, .table__grid--body-item{
+    border-right: 1px solid #282c34;
+    padding: 0 .5rem;
+}
+
+.table__grid--body{
+    border-top: none;
+    background-color: white;
+    color: #282c34;
+}
+
+.no-result{
+    text-align: center;
+    border: 1px solid #282c34;
+    padding: 1rem;
+}
